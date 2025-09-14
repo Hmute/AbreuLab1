@@ -1,0 +1,23 @@
+/* Minimal custom styles; Bootstrap handles layout/spacing/buttons */
+.note {
+    display: flex;
+    align-items: flex-start;
+    gap: .75rem;
+}
+
+.note textarea {
+    width: 100%;
+    min-height: 95px;
+    padding: .75rem;
+    border-radius: .5rem;
+    background: #1f4e8b;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, .08);
+    font-weight: 600;
+}
+
+.readonly .note textarea {
+    background: #e9f2ff;
+    color: #0d1b2a;
+    font-weight: 500;
+}
